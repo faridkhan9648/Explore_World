@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <nav class="navbar">
+        <div class="site_name">
+            <p>Explore World</p>
+        </div>
+        <div class="nav_links a">
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <section class="contact_section">
+        <h2 class="form_h2">Contact Us</h2>
+        <form class="cont_form">
+            <label for="name">Full Name :</label>
+            <input type="text" id="name">
+
+            <label for="email">Email :</label>
+            <input type="email" id="email">
+
+            <label for="number">Phone :</label>
+            <input type="number" id="number">
+
+            <label for="destination">Travel Destination :</label>
+            <select name="destination name" id="destination">
+                <option value="Maldives">Maldives</option>
+                <option value="Dubai">Dubai</option>
+                <option value="Paris">Paris</option>
+                <option value="Bali">Bali</option>
+                <option value="Bora Bora">Bora Bora</option>
+                <option value="Istanbul">Istanbul</option>
+            </select>
+
+            <p>Preferred Month :</p>
+            <label for="one"><input type="radio" name="month" value="January" id="one">January </label>
+            <label for="two"><input type="radio" name="month" value="June" id="two">June </label>
+            <label for="three"><input type="radio" name="month" value="December" id="three">December </label>
+
+            <label for="Comments">Comments :</label>
+            <textarea id="Comments" name="comments" rows="4"></textarea>
+
+            <label for="subscribe">Subscribe :</label>
+            <input type="checkbox" name="newsletter" id="subscribe">
+
+            <button>Submit</button>
+        </form>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>What is the best time to visit Bali?</summary>
+                <p>April to October is the best time for sunny weather.</p>
+            </details>
+            <details>
+                <summary>Do I need a visa for Bora Bora?</summary>
+                <p>Visa requirements depend on your nationality. Check with your embassy.</p>
+            </details>
+            <details>
+                <summary>Is Istanbul safe for tourists?</summary>
+                <p>Yes, Istanbul is generally safe, but stay alert in crowded areas.</p>
+        </section>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 TravelCo. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
